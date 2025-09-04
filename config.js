@@ -12,7 +12,7 @@ let configCache = {
   ANTIDELETE_MODE: 'off',
   AUTOVIEW_STATUS: true,
   AUTOLIKE_STATUS: true,
-  SESSION_ID: process.env.SESSION_ID || ''
+  SESSION_ID: process.env.SESSION_ID || 'DAVE-S*F=IYGN685KXX'
 }
 export async function initConfig() {
   for (const key of Object.keys(configCache)) {
